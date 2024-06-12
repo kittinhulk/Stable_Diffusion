@@ -19,6 +19,15 @@ NODES=(
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/audioscavenger/save-image-extended-comfyui"
     "https://github.com/StartHua/Comfyui_joytag"
+    "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
+    "https://github.com/shiimizu/ComfyUI_smZNodes"
+    "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
+    "https://github.com/wallish77/wlsh_nodes"
+    "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
+    "https://github.com/theUpsider/ComfyUI-Logic"
+    "https://github.com/rgthree/rgthree-comfy"
+    "https://github.com/edenartlab/eden_comfy_pipelines"
+    "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
 )
 
 CHECKPOINT_MODELS=(
