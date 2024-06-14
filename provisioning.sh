@@ -50,7 +50,7 @@ LORA_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/nagachichiD.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/picxer_real.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pytorch_lora_weights.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand%20v3%20SD1.5.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/roxy-migurdia-s1-ponyxl-lora-nochekaiser.safetensors"
 )
 
