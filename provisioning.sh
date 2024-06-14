@@ -43,7 +43,6 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/hand%204.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/breastsizeslideroffset.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/m99_labiaplasty_pussy_2.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/more_details.safetensors"
