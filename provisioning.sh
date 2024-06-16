@@ -127,9 +127,6 @@ function provisioning_start() {
         "${WORKSPACE}/storage/stable_diffusion/embeddings" \
         "${EMBEDDINGS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/embeddings" \
-        "${EMBEDDINGS[@]}"
-    provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ultralytics/bbox" \
         "${ULTRALYTICS[@]}"
     provisioning_print_end
