@@ -89,6 +89,16 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_style-fp16.safetensors"
 )
 
+EMBEDDINGS=(
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/epiCPhoto.pt"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/CyberRealistic_Negative-neg.pt"
+)
+
+ULTRALYTICS=(
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/nipple.pt"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pussyV2.pt"
+)
+
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
 function provisioning_start() {
@@ -113,6 +123,15 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/esrgan" \
         "${ESRGAN_MODELS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/embeddings" \
+        "${EMBEDDINGS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/embeddings" \
+        "${EMBEDDINGS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/ultralytics/bbox" \
+        "${ULTRALYTICS[@]}"
     provisioning_print_end
 }
 
