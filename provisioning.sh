@@ -28,6 +28,7 @@ NODES=(
     "https://github.com/rgthree/rgthree-comfy"
     "https://github.com/edenartlab/eden_comfy_pipelines"
     "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
+    "https://github.com/coolzilj/ComfyUI-LJNodes"
 )
 
 CHECKPOINT_MODELS=(
