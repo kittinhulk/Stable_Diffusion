@@ -53,6 +53,7 @@ LORA_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pytorch_lora_weights.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/roxy-migurdia-s1-ponyxl-lora-nochekaiser.safetensors"
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
 )
 
 VAE_MODELS=(
@@ -100,6 +101,15 @@ ULTRALYTICS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pussyV2.pt"
 )
 
+CLIP_VISION=(
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors"
+)
+
+IPADAPTER=(
+    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.bin"
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin"
+)
+
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
 function provisioning_start() {
@@ -130,6 +140,12 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ultralytics/bbox" \
         "${ULTRALYTICS[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/clip_vision" \
+        "${CLIP_VISION[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/ipadapter" \
+        "${IPADAPTER[@]}"
     provisioning_print_end
 }
 
