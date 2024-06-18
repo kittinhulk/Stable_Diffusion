@@ -30,6 +30,11 @@ NODES=(
     "https://github.com/edenartlab/eden_comfy_pipelines"
     "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
     "https://github.com/coolzilj/ComfyUI-LJNodes"
+    "https://github.com/jags111/efficiency-nodes-comfyui"
+    "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
+    "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
+    "https://github.com/cubiq/PuLID_ComfyUI"
+    "https://github.com/mav-rik/facerestore_cf"
 )
 
 CHECKPOINT_MODELS=(
