@@ -54,6 +54,12 @@ LORA_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/roxy-migurdia-s1-ponyxl-lora-nochekaiser.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Age%20Slider%20V2_alpha1.0_rank4_noxattn_last.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Body%20Type_alpha1.0_rank4_noxattn_last.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Breast%20Sag%20Slider_alpha1.0_rank4_noxattn_last.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Breast%20Slider%20-%20Pony_alpha1.0_rank4_noxattn_last.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Clothed%20Slider_alpha1.0_rank4_noxattn_last.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Skin%20Color_alpha1.0_rank4_noxattn_250steps.safetensors"
 )
 
 VAE_MODELS=(
