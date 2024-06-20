@@ -106,6 +106,7 @@ CONTROLNET_MODELS=(
 EMBEDDINGS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/epiCPhoto.pt"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/CyberRealistic_Negative-neg.pt"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/DeepNegative_xl_v1.safetensors"
 )
 
 ULTRALYTICS=(
