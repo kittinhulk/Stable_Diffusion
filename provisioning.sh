@@ -43,6 +43,7 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/wildcardxAsian_v10.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/majicmixRealistic_v7-inpainting.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/White_RealisticSimulator_Pony_v20.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v30BetaFp16.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/leosamsHelloworldXL_helloworldXL70.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
@@ -51,7 +52,8 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
-    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/genshin_v4.safetensors"
+    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/genshin_v4.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/genshin-ganyu-ingame-ponyxl-lora-nochekaiser.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/breastsizeslideroffset.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/m99_labiaplasty_pussy_2.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/more_details.safetensors"
