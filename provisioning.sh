@@ -53,9 +53,9 @@ CHECKPOINT_MODELS=(
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/genshin_v4.safetensors"
-    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/nezuko-kamado-anime-ponyxl-lora-nochekaiser.safetensors"
+    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/nezuko-kamado-anime-ponyxl-lora-nochekaiser.safetensors"
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/2b-s1-ponyxl-lora-nochekaiser.safetensors"
-    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/genshin-ganyu-ingame-ponyxl-lora-nochekaiser.safetensors"
+    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/genshin-ganyu-ingame-ponyxl-lora-nochekaiser.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/breastsizeslideroffset.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/m99_labiaplasty_pussy_2.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/more_details.safetensors"
