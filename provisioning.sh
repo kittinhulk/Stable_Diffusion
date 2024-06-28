@@ -19,7 +19,6 @@ NODES=(
     "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
     "https://github.com/audioscavenger/save-image-extended-comfyui"
-    "https://github.com/StartHua/Comfyui_joytag"
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/shiimizu/ComfyUI_smZNodes"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
