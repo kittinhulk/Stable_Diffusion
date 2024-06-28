@@ -34,8 +34,8 @@ NODES=(
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/cubiq/PuLID_ComfyUI"
-    "https://github.com/mav-rik/facerestore_cf"
     "https://github.com/crystian/ComfyUI-Crystools?tab=readme-ov-file"
+    "https://github.com/DepthAnything/Depth-Anything-V2"
 )
 
 CHECKPOINT_MODELS=(
