@@ -52,10 +52,8 @@ CHECKPOINT_MODELS=(
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
-    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/genshin_v4.safetensors"
-    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/nezuko-kamado-anime-ponyxl-lora-nochekaiser.safetensors"
-    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/2b-s1-ponyxl-lora-nochekaiser.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/genshin-ganyu-ingame-ponyxl-lora-nochekaiser.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Ganyu_Genshin_Impact_Character_Lora_PDXL.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/breastsizeslideroffset.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/m99_labiaplasty_pussy_2.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/more_details.safetensors"
@@ -64,6 +62,8 @@ LORA_MODELS=(
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pytorch_lora_weights.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/roxy-migurdia-s1-ponyxl-lora-nochekaiser.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/StS_PonyXL_Detail_Slider_v1.2.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/add-detail-xl.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Age%20Slider%20V2_alpha1.0_rank4_noxattn_last.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Body%20Type_alpha1.0_rank4_noxattn_last.safetensors"
