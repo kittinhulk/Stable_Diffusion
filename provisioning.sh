@@ -9,6 +9,9 @@
 PYTHON_PACKAGES=(
     #"opencv-python==4.7.0.72"
     "pillow==10.2.0 insightface onnxruntime onnxruntime-gpu"
+    "transformers>=4.38.0"
+    "matplotlib"
+    "timm"
 )
 
 NODES=(
