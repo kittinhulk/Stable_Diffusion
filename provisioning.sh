@@ -35,6 +35,7 @@ NODES=(
     "https://github.com/cubiq/PuLID_ComfyUI"
     "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/DepthAnything/Depth-Anything-V2"
+    "https://github.com/kijai/ComfyUI-Florence2"
 )
 
 CHECKPOINT_MODELS=(
