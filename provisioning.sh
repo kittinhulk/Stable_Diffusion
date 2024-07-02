@@ -69,6 +69,8 @@ LORA_MODELS=(
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/add-detail-xl.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Expressive_H-000001.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Rem.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/jinhsi_wuthering_waves_pony.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Age%20Slider%20V2_alpha1.0_rank4_noxattn_last.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Body%20Type_alpha1.0_rank4_noxattn_last.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Breast%20Sag%20Slider_alpha1.0_rank4_noxattn_last.safetensors"
