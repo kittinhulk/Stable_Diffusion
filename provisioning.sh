@@ -29,7 +29,6 @@ NODES=(
     "https://github.com/edenartlab/eden_comfy_pipelines"
     "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
     "https://github.com/coolzilj/ComfyUI-LJNodes"
-    "https://github.com/jags111/efficiency-nodes-comfyui"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
     "https://github.com/cubiq/PuLID_ComfyUI"
@@ -37,6 +36,7 @@ NODES=(
     "https://github.com/DepthAnything/Depth-Anything-V2"
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/M1kep/ComfyLiterals"
+    "https://github.com/jags111/efficiency-nodes-comfyui"
 )
 
 CHECKPOINT_MODELS=(
