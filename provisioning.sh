@@ -71,8 +71,6 @@ LORA_MODELS=(
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/add-detail-xl.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Expressive_H-000001.safetensors"
-    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Rem.safetensors"
-    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/jinhsi_wuthering_waves_pony.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/hand_4.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Age%20Slider%20V2_alpha1.0_rank4_noxattn_last.safetensors"
@@ -97,7 +95,7 @@ ESRGAN_MODELS=(
 
 CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
-    "https://huggingface.co/SargeZT/controlnet-sd-xl-1.0-depth-16bit-zoe/resolve/main/depth-zoe-xl-v1.0-controlnet.safetensors"
+    #"https://huggingface.co/SargeZT/controlnet-sd-xl-1.0-depth-16bit-zoe/resolve/main/depth-zoe-xl-v1.0-controlnet.safetensors"
     "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11f1p_sd15_depth_fp16.safetensors"
     "https://huggingface.co/comfyanonymous/ControlNet-v1-1_fp16_safetensors/resolve/main/control_v11p_sd15_lineart_fp16.safetensors"
     "https://huggingface.co/hr16/ControlNet-HandRefiner-pruned/resolve/main/control_sd15_inpaint_depth_hand_fp16.safetensors"
