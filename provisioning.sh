@@ -36,7 +36,7 @@ NODES=(
     "https://github.com/DepthAnything/Depth-Anything-V2"
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/M1kep/ComfyLiterals"
-    "https://github.com/jags111/efficiency-nodes-comfyui"
+    #"https://github.com/jags111/efficiency-nodes-comfyui"
 )
 
 CHECKPOINT_MODELS=(
@@ -47,8 +47,9 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/White_RealisticSimulator_Pony_v20.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v30BetaFp16.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/waiREALMIX_v80.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Photo-Obscure-ver.Origine-001.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/waiREALCN_v60.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/tPonynai3_v55.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/tPonynai3_v55.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/leosamsHelloworldXL_helloworldXL70.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
