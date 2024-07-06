@@ -13,6 +13,7 @@ PYTHON_PACKAGES=(
 
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
+    "https://github.com/jags111/efficiency-nodes-comfyui"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
@@ -35,8 +36,7 @@ NODES=(
     "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/DepthAnything/Depth-Anything-V2"
     "https://github.com/kijai/ComfyUI-Florence2"
-    "https://github.com/M1kep/ComfyLiterals"
-    #"https://github.com/jags111/efficiency-nodes-comfyui"
+    #"https://github.com/M1kep/ComfyLiterals"
 )
 
 CHECKPOINT_MODELS=(
@@ -68,7 +68,7 @@ LORA_MODELS=(
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pytorch_lora_weights.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/roxy-migurdia-s1-ponyxl-lora-nochekaiser.safetensors"
-    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/StS_PonyXL_Detail_Slider_v1.2.safetensors"
+    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/StS_PonyXL_Detail_Slider_v1.2.safetensors"
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/add-detail-xl.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Expressive_H-000001.safetensors"
