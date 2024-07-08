@@ -36,8 +36,8 @@ NODES=(
     "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/DepthAnything/Depth-Anything-V2"
     "https://github.com/kijai/ComfyUI-Florence2"
-    "https://github.com/yolain/ComfyUI-Easy-Use"
-    "https://github.com/M1kep/ComfyLiterals"
+    #"https://github.com/yolain/ComfyUI-Easy-Use"
+    #"https://github.com/M1kep/ComfyLiterals"
 )
 
 CHECKPOINT_MODELS=(
