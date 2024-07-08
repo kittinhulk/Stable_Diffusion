@@ -13,7 +13,7 @@ PYTHON_PACKAGES=(
 
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
-    #"https://github.com/jags111/efficiency-nodes-comfyui"
+    "https://github.com/jags111/efficiency-nodes-comfyui"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
@@ -32,12 +32,12 @@ NODES=(
     "https://github.com/coolzilj/ComfyUI-LJNodes"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
-    "https://github.com/cubiq/PuLID_ComfyUI"
+    #"https://github.com/cubiq/PuLID_ComfyUI"
     "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/DepthAnything/Depth-Anything-V2"
     "https://github.com/kijai/ComfyUI-Florence2"
-    #"https://github.com/yolain/ComfyUI-Easy-Use"
-    #"https://github.com/M1kep/ComfyLiterals"
+    "https://github.com/yolain/ComfyUI-Easy-Use"
+    "https://github.com/M1kep/ComfyLiterals"
 )
 
 CHECKPOINT_MODELS=(
@@ -47,9 +47,9 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/majicmixRealistic_v7-inpainting.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/White_RealisticSimulator_Pony_v20.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v30BetaFp16.safetensors"
-    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/waiREALMIX_v80.safetensors"
-    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Photo-Obscure-ver.Origine-001.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/waiREALCN_v60.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/waiREALMIX_v80.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Photo-Obscure-ver.Origine-001.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/waiREALCN_v60.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/tPonynai3_v55.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/leosamsHelloworldXL_helloworldXL70.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
