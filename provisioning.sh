@@ -13,7 +13,7 @@ PYTHON_PACKAGES=(
 
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
-    "https://github.com/jags111/efficiency-nodes-comfyui"
+    #"https://github.com/jags111/efficiency-nodes-comfyui"
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
@@ -48,7 +48,7 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/White_RealisticSimulator_Pony_v20.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v30BetaFp16.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/waiREALMIX_v80.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Photo-Obscure-ver.Origine-001.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Photo-Obscure-ver.Origine-001.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/waiREALCN_v60.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/tPonynai3_v55.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/leosamsHelloworldXL_helloworldXL70.safetensors"
