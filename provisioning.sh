@@ -28,7 +28,7 @@ NODES=(
     "https://github.com/theUpsider/ComfyUI-Logic"
     "https://github.com/rgthree/rgthree-comfy"
     "https://github.com/edenartlab/eden_comfy_pipelines"
-    "https://github.com/KoreTeknology/ComfyUI-Universal-Styler"
+    #"https://github.com/KoreTeknology/ComfyUI-Universal-UltimateSDUpscale"
     "https://github.com/coolzilj/ComfyUI-LJNodes"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
@@ -41,6 +41,7 @@ NODES=(
     "https://github.com/cubiq/PuLID_ComfyUI"
     "https://github.com/giriss/comfy-image-saver"
     "https://github.com/CosmicLaca/ComfyUI_Primere_Nodes"
+    "https://github.com/Gourieff/comfyui-reactor-node"
 )
 
 CHECKPOINT_MODELS=(
