@@ -7,7 +7,7 @@
 # Packages are installed after nodes so we can fix them...
 
 PYTHON_PACKAGES=(
-    #"opencv-python==4.7.0.72"
+    "opencv-python==4.7.0.72"
     "pillow==10.2.0 insightface onnxruntime onnxruntime-gpu"
 )
 
@@ -28,7 +28,6 @@ NODES=(
     "https://github.com/theUpsider/ComfyUI-Logic"
     "https://github.com/rgthree/rgthree-comfy"
     "https://github.com/edenartlab/eden_comfy_pipelines"
-    #"https://github.com/KoreTeknology/ComfyUI-Universal-UltimateSDUpscale"
     "https://github.com/coolzilj/ComfyUI-LJNodes"
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale"
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes"
@@ -42,6 +41,7 @@ NODES=(
     "https://github.com/giriss/comfy-image-saver"
     "https://github.com/CosmicLaca/ComfyUI_Primere_Nodes"
     "https://github.com/Gourieff/comfyui-reactor-node"
+    "https://github.com/cubiq/ComfyUI_InstantID"
 )
 
 CHECKPOINT_MODELS=(
@@ -143,6 +143,20 @@ IPADAPTER=(
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin"
 )
 
+ANTELOPEV=(
+    "https://huggingface.co/MonsterMMORPG/tools/resolve/main/1k3d68.onnx"
+    "https://huggingface.co/MonsterMMORPG/tools/resolve/main/2d106det.onnx"
+    "https://huggingface.co/MonsterMMORPG/tools/resolve/main/genderage.onnx"
+    "https://huggingface.co/MonsterMMORPG/tools/resolve/main/glintr100.onnx"
+    "https://huggingface.co/MonsterMMORPG/tools/resolve/main/scrfd_10g_bnkps.onnx"
+
+)
+
+INSTANTID=(
+    "https://huggingface.co/InstantX/InstantID/resolve/main/ip-adapter.bin"
+)
+
+
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
 function provisioning_start() {
@@ -179,6 +193,15 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/ipadapter" \
         "${IPADAPTER[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/ipadapter" \
+        "${IPADAPTER[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/insightface/models/antelopev2" \
+        "${ANTELOPEV[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/instantid" \
+        "${INSTANTID[@]}"
     provisioning_print_end
 }
 
