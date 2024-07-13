@@ -156,6 +156,10 @@ INSTANTID=(
     "https://huggingface.co/InstantX/InstantID/resolve/main/ip-adapter.bin"
 )
 
+INSIGHTFACE=(
+    "https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx"
+)
+
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
@@ -202,6 +206,9 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/instantid" \
         "${INSTANTID[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/insightface" \
+        "${INSIGHTFACE[@]}"
     provisioning_print_end
 }
 
