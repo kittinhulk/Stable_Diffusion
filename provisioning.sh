@@ -41,6 +41,7 @@ NODES=(
     "https://github.com/giriss/comfy-image-saver"
     "https://github.com/CosmicLaca/ComfyUI_Primere_Nodes"
     "https://github.com/Gourieff/comfyui-reactor-node"
+    "https://github.com/jamesWalker55/comfyui-various"
     #"https://github.com/cubiq/ComfyUI_InstantID"
 )
 
