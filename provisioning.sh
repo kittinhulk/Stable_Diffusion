@@ -9,7 +9,7 @@
 PYTHON_PACKAGES=(
     "opencv-python==4.7.0.72"
     "pillow==10.2.0 insightface onnxruntime onnxruntime-gpu"
-    "xformers==0.0.22.post7"
+    #"xformers==0.0.22.post7"
 )
 
 NODES=(
@@ -43,7 +43,7 @@ NODES=(
     "https://github.com/CosmicLaca/ComfyUI_Primere_Nodes"
     "https://github.com/Gourieff/comfyui-reactor-node"
     "https://github.com/jamesWalker55/comfyui-various"
-    "https://github.com/AIFSH/ComfyUI-MimicMotion"
+    #"https://github.com/AIFSH/ComfyUI-MimicMotion"
     #"https://github.com/cubiq/ComfyUI_InstantID"
 )
 
