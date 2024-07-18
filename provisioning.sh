@@ -9,6 +9,7 @@
 PYTHON_PACKAGES=(
     "opencv-python==4.7.0.72"
     "pillow==10.2.0 insightface onnxruntime onnxruntime-gpu"
+    "xformers==0.0.22.post7"
 )
 
 NODES=(
@@ -42,18 +43,19 @@ NODES=(
     "https://github.com/CosmicLaca/ComfyUI_Primere_Nodes"
     "https://github.com/Gourieff/comfyui-reactor-node"
     "https://github.com/jamesWalker55/comfyui-various"
+    "https://github.com/AIFSH/ComfyUI-MimicMotion"
     #"https://github.com/cubiq/ComfyUI_InstantID"
 )
 
 CHECKPOINT_MODELS=(
-    #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
-    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/iniverseMixXLSFWNSFW_guofengTurboV14.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/wildcardxAsian_v10.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/majicmixRealistic_v7-inpainting.safetensors"
-    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/White_RealisticSimulator_Pony_v20.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v32Fp16.safetensors"
-    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/waiREALMIX_v80.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Obscure-V1.2.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v32Fp16.safetensors"
+    #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/iniverseMixXLSFWNSFW_guofengTurboV14.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/White_RealisticSimulator_Pony_v20.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/waiREALMIX_v80.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/tPonynai3_v55.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/leosamsHelloworldXL_helloworldXL70.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
