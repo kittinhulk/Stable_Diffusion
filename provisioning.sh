@@ -51,7 +51,7 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/wildcardxAsian_v10.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/majicmixRealistic_v7-inpainting.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Obscure-V1.2.safetensors"
-    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v32Fp16.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v32Fp16.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v33Fp16.safetensors"
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/iniverseMixXLSFWNSFW_guofengTurboV14.safetensors"
@@ -139,6 +139,7 @@ EMBEDDINGS=(
 ULTRALYTICS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/nipple.pt"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pussyV2.pt"
+    "https://huggingface.co/MonetEinsley/ADetailer_CM/resolve/main/foot_yolov8x_v2.pt"
 )
 
 CLIP_VISION=(
