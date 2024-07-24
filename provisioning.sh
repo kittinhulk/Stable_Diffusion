@@ -43,8 +43,7 @@ NODES=(
     "https://github.com/CosmicLaca/ComfyUI_Primere_Nodes"
     "https://github.com/Gourieff/comfyui-reactor-node"
     "https://github.com/jamesWalker55/comfyui-various"
-    #"https://github.com/AIFSH/ComfyUI-MimicMotion"
-    #"https://github.com/cubiq/ComfyUI_InstantID"
+    "https://github.com/cubiq/ComfyUI_InstantID"
 )
 
 CHECKPOINT_MODELS=(
@@ -119,7 +118,7 @@ CONTROLNET_MODELS=(
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_hed-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_mlsd-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_normal-fp16.safetensors"
-    #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors"
+    "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_openpose-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_scribble-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_seg-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/t2iadapter_canny-fp16.safetensors"
