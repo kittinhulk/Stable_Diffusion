@@ -44,7 +44,7 @@ NODES=(
     "https://github.com/Gourieff/comfyui-reactor-node"
     "https://github.com/jamesWalker55/comfyui-various"
     "https://github.com/cubiq/ComfyUI_InstantID"
-    "https://github.com/griptape-ai/ComfyUI-Griptape"
+    #"https://github.com/griptape-ai/ComfyUI-Griptape"
 )
 
 CHECKPOINT_MODELS=(
