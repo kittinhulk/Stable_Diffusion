@@ -96,6 +96,7 @@ VAE_MODELS=(
     "https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors"
     "https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/sharpspectrumvaexl_v1.safetensors"
+    "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/ae.sft"
 )
 
 ESRGAN_MODELS=(
@@ -170,6 +171,16 @@ INSIGHTFACE=(
     "https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx"
 )
 
+UNET=(
+    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.sft"
+    "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.sft"
+)
+
+CLIP=(
+    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors"
+    "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
+)
+
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
@@ -217,8 +228,11 @@ function provisioning_start() {
         "${WORKSPACE}/storage/stable_diffusion/models/instantid" \
         "${INSTANTID[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/insightface" \
-        "${INSIGHTFACE[@]}"
+        "${WORKSPACE}/storage/stable_diffusion/models/unet" \
+        "${UNET[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/clip" \
+        "${CLIP[@]}"
     provisioning_print_end
 }
 
