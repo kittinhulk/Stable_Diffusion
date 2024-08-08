@@ -145,6 +145,8 @@ ULTRALYTICS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/nipple.pt"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pussyV2.pt"
     "https://huggingface.co/MonetEinsley/ADetailer_CM/resolve/main/foot_yolov8x_v2.pt"
+    "https://huggingface.co/Bingsu/adetailer/resolve/main/face_yolov8n_v2.pt"
+    "https://github.com/hben35096/assets/releases/download/yolo8/face_yolov8n-seg2_60.pt"
 )
 
 CLIP_VISION=(
