@@ -38,7 +38,7 @@ NODES=(
     "https://github.com/kijai/ComfyUI-Florence2"
     "https://github.com/yolain/ComfyUI-Easy-Use"
     "https://github.com/M1kep/ComfyLiterals"
-    "https://github.com/cubiq/PuLID_ComfyUI"
+    #"https://github.com/cubiq/PuLID_ComfyUI"
     "https://github.com/giriss/comfy-image-saver"
     "https://github.com/CosmicLaca/ComfyUI_Primere_Nodes"
     "https://github.com/Gourieff/comfyui-reactor-node"
