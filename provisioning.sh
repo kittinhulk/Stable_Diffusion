@@ -41,6 +41,7 @@ NODES=(
     "https://github.com/jamesWalker55/comfyui-various"
     "https://github.com/cubiq/ComfyUI_InstantID"
     #"https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
+    "https://github.com/city96/ComfyUI-GGUF"
     "https://github.com/sipherxyz/comfyui-art-venture"
     #"https://github.com/griptape-ai/ComfyUI-Griptape"
     #"https://github.com/zhongpei/Comfyui_image2prompt"
