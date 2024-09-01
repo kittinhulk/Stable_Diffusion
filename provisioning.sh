@@ -45,6 +45,7 @@ NODES=(
     "https://github.com/sipherxyz/comfyui-art-venture"
     #"https://github.com/griptape-ai/ComfyUI-Griptape"
     #"https://github.com/zhongpei/Comfyui_image2prompt"
+    "https://github.com/comfyanonymous/ComfyUI_bitsandbytes_NF4"
 )
 
 CHECKPOINT_MODELS=(
