@@ -55,6 +55,7 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/whitePonyDiffusion3_fixed.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v35Fp16Alt.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/myhumanFluxTrainable_12Train.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Ink_and_Solitude-Flux_v1.safetensors"
 
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
