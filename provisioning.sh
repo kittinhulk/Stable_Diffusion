@@ -205,6 +205,34 @@ CLIP=(
     "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp8_e4m3fn.safetensors"
 )
 
+SIGLIP=(
+    "https://huggingface.co/google/siglip-so400m-patch14-384/resolve/main/.gitattributes"
+    "https://huggingface.co/google/siglip-so400m-patch14-384/resolve/main/README.md"
+    "https://huggingface.co/google/siglip-so400m-patch14-384/resolve/main/config.json"
+    "https://huggingface.co/google/siglip-so400m-patch14-384/resolve/main/model.safetensors"
+    "https://huggingface.co/google/siglip-so400m-patch14-384/resolve/main/preprocessor_config.json"
+    "https://huggingface.co/google/siglip-so400m-patch14-384/resolve/main/special_tokens_map.json"
+    "https://huggingface.co/google/siglip-so400m-patch14-384/resolve/main/spiece.model"
+    "https://huggingface.co/google/siglip-so400m-patch14-384/resolve/main/tokenizer.json"
+    "https://huggingface.co/google/siglip-so400m-patch14-384/resolve/main/tokenizer_config.json"
+)
+
+METALLAMA=(
+    "https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit/resolve/main/.gitattributes"
+    "https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit/resolve/main/README.md"
+    "https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit/resolve/main/config.json"
+    "https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit/resolve/main/generation_config.json"
+    "https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit/resolve/main/model.safetensors"
+    "https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit/resolve/main/special_tokens_map.json"
+    "https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit/resolve/main/tokenizer.json"
+    "https://huggingface.co/unsloth/Meta-Llama-3.1-8B-bnb-4bit/resolve/main/tokenizer_config.json"
+
+)
+
+JOY_CAPTION=(
+    "https://huggingface.co/spaces/fancyfeast/joy-caption-pre-alpha/resolve/main/wpkklhc6/config.yaml"
+    "https://huggingface.co/spaces/fancyfeast/joy-caption-pre-alpha/resolve/main/wpkklhc6/image_adapter.pt"
+)
 
 ### DO NOT EDIT BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING ###
 
@@ -257,6 +285,16 @@ function provisioning_start() {
     provisioning_get_models \
         "${WORKSPACE}/storage/stable_diffusion/models/clip" \
         "${CLIP[@]}"
+    provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/clip/siglip-so400m-patch14-384" \
+        "${SIGLIP[@]}"
+     provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/LLM/Meta-Llama-3.1-8B-bnb-4bit" \
+        "${METALLAMA[@]}"
+     provisioning_get_models \
+        "${WORKSPACE}/storage/stable_diffusion/models/Joy_caption" \
+        "${JOY_CAPTION[@]}"     
+
     provisioning_print_end
 }
 
