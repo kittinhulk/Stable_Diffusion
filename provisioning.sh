@@ -46,18 +46,18 @@ NODES=(
     #"https://github.com/griptape-ai/ComfyUI-Griptape"
     #"https://github.com/zhongpei/Comfyui_image2prompt"
     "https://github.com/comfyanonymous/ComfyUI_bitsandbytes_NF4"
-    "https://github.com/CY-CHENYUE/ComfyUI-MiniCPM-Plus"
+    #"https://github.com/CY-CHENYUE/ComfyUI-MiniCPM-Plus"
     "https://github.com/TTPlanetPig/Comfyui_TTP_Toolset"
-    "https://github.com/StartHua/Comfyui_CXH_joy_caption"
+    #"https://github.com/StartHua/Comfyui_CXH_joy_caption"
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/wildcardxAsian_v10.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/majicmixRealistic_v7-inpainting.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Obscure-V1.2.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/wildcardxAsian_v10.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/majicmixRealistic_v7-inpainting.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Obscure-V1.2.safetensors"
     "https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/whitePonyDiffusion3_fixed.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v35Fp16Alt.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/whitePonyDiffusion3_fixed.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v35Fp16Alt.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Ink_and_Solitude-Flux_v1.safetensors"
 
     #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
@@ -84,21 +84,17 @@ LORA_MODELS=(
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/roxy-migurdia-s1-ponyxl-lora-nochekaiser.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/StS_PonyXL_Detail_Slider_v1.2.safetensors"
+    
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/add-detail-xl.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Expressive_H-000001.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/hand_4.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
-    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/lumeartz_wishcraft.safetensors"
+    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/lumeartz_wishcraft.safetensors"
 
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000001.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000002.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000003.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000004.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000005.safetensors"
     "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000006.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000007.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Ink_Abyss-Flux-Lora-Net_Diagram_MYH-1.1.safetensors"
+
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Ink_Black-F.1-Lora-Film_v1.safetensors"
     
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Age%20Slider%20V2_alpha1.0_rank4_noxattn_last.safetensors"
@@ -171,8 +167,8 @@ CLIP_VISION=(
 )
 
 IPADAPTER=(
-    "https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.bin"
-    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin"
+    #"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.bin"
+    #"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin"
 )
 
 ANTELOPEV=(
@@ -193,10 +189,10 @@ INSIGHTFACE=(
 )
 
 UNET=(
-    "https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.sft"
-    "https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.sft"
+    #"https://huggingface.co/black-forest-labs/FLUX.1-dev/resolve/main/flux1-dev.sft"
+    #"https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.sft"
     "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/colorfulasiangirlFlux_beta.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/colorfulasiangirlFlux_beta.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/myhumanFluxTrainable_12Train.safetensors"
 )
 
