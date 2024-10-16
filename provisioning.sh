@@ -15,8 +15,6 @@ PYTHON_PACKAGES=(
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager"
     "https://github.com/jags111/efficiency-nodes-comfyui"
-    "https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-    "https://github.com/ltdrdata/ComfyUI-Inspire-Pack"
     "https://github.com/Fannovel16/comfyui_controlnet_aux"
     "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
     "https://github.com/WASasquatch/was-node-suite-comfyui"
@@ -24,7 +22,6 @@ NODES=(
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts"
     "https://github.com/shiimizu/ComfyUI_smZNodes"
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus"
-    "https://github.com/wallish77/wlsh_nodes"
     "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet"
     "https://github.com/theUpsider/ComfyUI-Logic"
     "https://github.com/rgthree/rgthree-comfy"
@@ -34,14 +31,11 @@ NODES=(
     "https://github.com/crystian/ComfyUI-Crystools"
     "https://github.com/DepthAnything/Depth-Anything-V2"
     "https://github.com/kijai/ComfyUI-Florence2"
-    "https://github.com/yolain/ComfyUI-Easy-Use"
     "https://github.com/M1kep/ComfyLiterals"
     "https://github.com/giriss/comfy-image-saver"
-    "https://github.com/Gourieff/comfyui-reactor-node"
     "https://github.com/jamesWalker55/comfyui-various"
     "https://github.com/cubiq/ComfyUI_InstantID"
     #"https://github.com/PowerHouseMan/ComfyUI-AdvancedLivePortrait"
-    "https://github.com/city96/ComfyUI-GGUF"
     "https://github.com/sipherxyz/comfyui-art-venture"
     #"https://github.com/griptape-ai/ComfyUI-Griptape"
     #"https://github.com/zhongpei/Comfyui_image2prompt"
@@ -194,7 +188,7 @@ UNET=(
     #"https://huggingface.co/black-forest-labs/FLUX.1-schnell/resolve/main/flux1-schnell.sft"
     "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/colorfulasiangirlFlux_beta.safetensors"
-    
+
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/myhumanFluxTrainable_12Train.safetensors"
 )
 
