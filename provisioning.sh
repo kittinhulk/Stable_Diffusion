@@ -90,6 +90,15 @@ LORA_MODELS=(
     "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000006.safetensors"
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Ink_Abyss-Flux-Lora-Net_Diagram_MYH-1.1.safetensors"
 
+    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_chaser-000001.safetensors"
+    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_chaser-000002.safetensors"
+    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_chaser-000003.safetensors"
+    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_chaser-000004.safetensors"
+    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_chaser-000005.safetensors"
+    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_chaser-000006.safetensors"
+    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_chaser-000007.safetensors"
+    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_chaser.safetensors"
+
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Ink_Black-F.1-Lora-Film_v1.safetensors"
     
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Age%20Slider%20V2_alpha1.0_rank4_noxattn_last.safetensors"
