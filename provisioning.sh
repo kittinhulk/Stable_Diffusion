@@ -82,7 +82,7 @@ LORA_MODELS=(
     
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/add-detail-xl.safetensors"
     "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15_lora.safetensors"
-    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Expressive_H-000001.safetensors"
+    "i://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Expressive_H-000001.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/hand_4.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/lumeartz_wishcraft.safetensors"
@@ -190,7 +190,7 @@ CLIP_VISION=(
 
 IPADAPTER=(
     #"https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light.bin"
-    #"https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin"
+    "https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sd15.bin"
 )
 
 ANTELOPEV=(
