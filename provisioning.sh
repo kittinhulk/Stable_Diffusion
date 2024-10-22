@@ -48,7 +48,7 @@ NODES=(
 CHECKPOINT_MODELS=(
     "https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors"
 
-    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/wildcardxAsian_v10.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/wildcardxAsian_v10.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/majicmixRealistic_v7-inpainting.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Obscure-V1.2.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/whitePonyDiffusion3_fixed.safetensors"
@@ -108,14 +108,14 @@ LORA_MODELS=(
 #    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Troubadour_lora-000007.safetensors"
 #    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Troubadour_lora.safetensors"
 
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000001.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000002.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000003.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000004.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000005.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000006.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000007.safetensors"
-    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora.safetensors"
+#    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000001.safetensors"
+#    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000002.safetensors"
+#    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000003.safetensors"
+#    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000004.safetensors"
+#    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000005.safetensors"
+#    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000006.safetensors"
+#    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora-000007.safetensors"
+#    "https://huggingface.co/GritTin/My_Lora_test/resolve/main/Abyss_Chaser2_lora.safetensors"
 
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Ink_Black-F.1-Lora-Film_v1.safetensors"
     
