@@ -211,6 +211,7 @@ UNET=(
     "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/colorfulasiangirlFlux_beta.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/myhumanFluxTrainable_12Train.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Ink_and_Solitude-Flux_MYH-1.3.safetensors"
 )
 
 CLIP=(
