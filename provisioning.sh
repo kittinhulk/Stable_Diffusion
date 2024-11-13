@@ -47,6 +47,7 @@ NODES=(
 
 CHECKPOINT_MODELS=(
     "https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/whitePonyDiffusion4_whitepony4Classic.safetensors"
 
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/wildcardxAsian_v10.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/majicmixRealistic_v7-inpainting.safetensors"
