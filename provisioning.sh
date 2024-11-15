@@ -46,14 +46,14 @@ NODES=(
 )
 
 CHECKPOINT_MODELS=(
-    "https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors"
+    #"https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/whitePonyDiffusion4_whitepony4Classic.safetensors"
 
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/wildcardxAsian_v10.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/wildcardxAsian_v10.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/majicmixRealistic_v7-inpainting.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Obscure-V1.2.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/whitePonyDiffusion3_fixed.safetensors"
-    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/gritMix_v10.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/whitePonyDiffusion3_fixed.safetensors"
+    #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/gritMix_v10.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/epicrealismXL_v8Kiss.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v35Fp16Alt.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Ink_and_Solitude-Flux_v1.safetensors"
@@ -89,10 +89,10 @@ LORA_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/hand_4.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/lumeartz_wishcraft.safetensors"
-
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/real-humans-PublicPrompts.safetensors"
 
     "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000006.safetensors"
-    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Ink_Abyss-Flux-Lora-Net_Diagram_MYH-1.1.safetensors"
+    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Ink_Abyss-Flux-Lora-Net_Diagram_MYH-1.1.safetensors"
 
     #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora-000001.safetensors"
     #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora-000002.safetensors"
@@ -105,16 +105,16 @@ LORA_MODELS=(
     #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora-000009.safetensors"
     #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora-000010.safetensors"
 
-    "https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000001.safetensors"
-    "https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000002.safetensors"
-    "https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000003.safetensors"
-    "https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000004.safetensors"
-    "https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000005.safetensors"
-    "https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000006.safetensors"
-    "https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000007.safetensors"
-    "https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000008.safetensors"
-    "https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000009.safetensors"
-    "https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000010.safetensors"
+    #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000001.safetensors"
+    #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000002.safetensors"
+    #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000003.safetensors"
+    #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000004.safetensors"
+    #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000005.safetensors"
+    #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000006.safetensors"
+    #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000007.safetensors"
+    #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000008.safetensors"
+    #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000009.safetensors"
+    #"https://huggingface.co/GritTin/lora_style_lume_S/resolve/main/lume_style_lora02-000010.safetensors"
 
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Ink_Black-F.1-Lora-Film_v1.safetensors"
     
