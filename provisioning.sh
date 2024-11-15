@@ -88,7 +88,7 @@ LORA_MODELS=(
     "i://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Expressive_H-000001.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/hand_4.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
-    #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/lumeartz_wishcraft.safetensors"
+    "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/lumeartz_wishcraft.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/real-humans-PublicPrompts.safetensors"
 
     "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000006.safetensors"
