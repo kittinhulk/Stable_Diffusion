@@ -54,6 +54,7 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Obscure-V1.2.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/whitePonyDiffusion3_fixed.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/gritMix_v10.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/epicrealismXL_v8Kiss.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v35Fp16Alt.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Ink_and_Solitude-Flux_v1.safetensors"
 
