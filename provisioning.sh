@@ -53,6 +53,7 @@ CHECKPOINT_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/majicmixRealistic_v7-inpainting.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Dalcefo_XLP-Obscure-V1.2.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/whitePonyDiffusion3_fixed.safetensors"
+    "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/gritMix_v10.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/pinkiepiePonyMix_v35Fp16Alt.safetensors"
     #"https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Ink_and_Solitude-Flux_v1.safetensors"
 
@@ -87,6 +88,7 @@ LORA_MODELS=(
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/hand_4.safetensors"
     "https://huggingface.co/GritTin/modelsStableDiffusion/resolve/main/Hand_v3_SD1.5.safetensors"
     #"https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/lumeartz_wishcraft.safetensors"
+
 
     "https://huggingface.co/GritTin/My_Lora_test/resolve/main/lume_lora_05-000006.safetensors"
     "https://huggingface.co/GritTin/LoraStableDiffusion/resolve/main/Ink_Abyss-Flux-Lora-Net_Diagram_MYH-1.1.safetensors"
